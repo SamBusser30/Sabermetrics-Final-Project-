@@ -82,7 +82,7 @@ join er on new_events.pit_id = er.pit_id
 group by new_Events.pit_id;
 
 select first, last, (1b + (2*2b) + (3*3b)+ (4*hr) - (1.5*k) + (4 * er))/batters_faced as Tossing_Percentage from stat order by Tossing_Percentage;
-select * from stat;
+
 
 
 #Computing ERA for each pitcher in new_events
